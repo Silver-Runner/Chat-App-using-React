@@ -6,8 +6,8 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 body{
-  background-image: url("bg.jpg");
-  background-size: cover;
+  background-image: url("./bg.jpg");
+  object-fit: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,5 +24,6 @@ body{
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   display: flex;
+  overflow: hidden;
   
 }

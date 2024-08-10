@@ -21,6 +21,9 @@
 .icons{
   display:flex;
   gap: 20px;
+  :hover{
+    transform: scale(1.2);
+  }
   img{
     width:20px;
     height: 20px;

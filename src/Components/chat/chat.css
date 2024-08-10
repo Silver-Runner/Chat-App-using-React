@@ -40,6 +40,9 @@
     .icons{
       display: flex;
       gap: 20px;
+      :hover{
+        transform: scale(1.2);
+      }
       img{
         width: 30px;
         height: 30px;
@@ -106,6 +109,9 @@
     .icons{
       display: flex;
       gap: 20px;
+      :hover{
+        transform: scale(1.2);
+      }
       img{
         width: 30px;
         height: 30px;
